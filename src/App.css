@@ -1,0 +1,171 @@
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+.resident{
+    width: 100%;
+    max-width: 300px;
+    background-color: #072226;
+    color: white;
+    border-radius: 2em;
+    overflow: hidden;
+    transition: transform 100ms ease;
+    transform: scale(0.9);
+    font-size: 1em;
+}
+.resident_card{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.resident_card{
+   display:flex;
+   justify-content: space-between;
+  
+}
+.resident:hover{
+    transform: scale(1.2);
+}
+.resident_header{
+    position: relative;
+}
+.resident_status{
+    position: absolute;
+    top: 2.5em;
+    background-color: #072226;
+    width: 35%;
+    padding:0.3em 0.7em;
+    border-radius: 0 0.5em 0.5em 0;
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+}
+.resident_status_circule{
+    display: block;
+    width: 14px;
+    aspect-ratio: 1;
+    background-color: #aaa;
+    border-radius: 50%;
+}
+.Alive{
+    background-color: greenyellow;
+}
+.Dead{
+    background-color: red;
+}
+.resident_body{
+    padding:1.5em 1em 2.5em;
+}
+.resident_name{
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+.resident_separator{
+    margin-bottom: 0.5em;
+    border-color: #aaa3;
+}
+.resident_list{
+    display: grid;
+    gap: 0.5em;
+}
+.resident_items{
+    display: flex;
+    flex-direction: column;
+}
+.resident_label{
+    font-size: 0.8em;
+    padding-left:1em ;
+    color: #aaa;
+}
+.resident_value{
+    font-weight: 500;
+}
+.total_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.xtrafondos.com/wallpapers/rick-y-morty-en-el-espacio-6046.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.total_name{
+    font-size: 5em;
+    color: transparent;
+    background-image: url(https://thumbs.dreamstime.com/z/fondo-multicolor-hermoso-del-brillo-d%C3%ADa-de-fiesta-las-luces-bokeh-para-la-celebraci%C3%B3n-cumplea%C3%B1os-a%C3%B1o-nuevo-navidad-133585052.jpg?w=768);
+    background-size: cover;
+    -webkit-background-clip: text;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border:#74a7af2f solid;
+    border-image: url(https://thumbs.dreamstime.com/z/fondo-multicolor-hermoso-del-brillo-d%C3%ADa-de-fiesta-las-luces-bokeh-para-la-celebraci%C3%B3n-cumplea%C3%B1os-a%C3%B1o-nuevo-navidad-133585052.jpg?w=768) ;
+    border-radius: 10%;
+    
+}
+.total_input{
+    background-color: rgba(255, 255, 255, 0.712);
+    border:  solid #194c53b9 ;
+    border-radius: 10%;
+    color: hwb(300 75% 15%);
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+.total_button{
+  background-color: hsla(190, 46%, 34%, 0.588);
+  color:hwb(300 0% 81% / 0.808);
+  font-size: 1.5em;
+  border-radius: 200%;
+}
+.total_button:hover{
+    background-image: url(https://thumbs.dreamstime.com/z/fondo-multicolor-hermoso-del-brillo-d%C3%ADa-de-fiesta-las-luces-bokeh-para-la-celebraci%C3%B3n-cumplea%C3%B1os-a%C3%B1o-nuevo-navidad-133585052.jpg?w=768);
+    color:#072226;
+}
+.total_error {
+    font-size: 30px; 
+    color: transparent; 
+    background-image: url('https://thumbs.dreamstime.com/z/fondo-multicolor-hermoso-del-brillo-d%C3%ADa-de-fiesta-las-luces-bokeh-para-la-celebraci%C3%B3n-cumplea%C3%B1os-a%C3%B1o-nuevo-navidad-133585052.jpg?w=768'); /* URL de la imagen */
+    background-size: cover;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    
+  }
+  .location{
+    background-color: #072226ec;
+    border: white solid 0.1em ;
+    border-radius: 10%;
+    width: 100%;
+    max-width: 50em;
+}
+.location_name{
+    width: 10em;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9em;
+    font-size: 2em;
+    color: #794f19;
+    
+  }
+  .location_ul{
+    margin-left: 2em;
+    font-size:2em ;
+    display: flex, inline;
+    margin:0.5em;
+    
+  }
+  /* Estilos básicos del elemento */
+.location_span{
+    color: rgb(128, 128, 128);
+    text-decoration:underline;
+}
+
+
+
+
+
+
+  
+  
